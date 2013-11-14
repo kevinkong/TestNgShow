@@ -1,0 +1,23 @@
+<suite name="BASIC">
+
+    <test verbose="1" name="Run a whole package" annotations="JDK">
+        <packages>
+            <package name="org.chenkan.testngshow" />
+        </packages>
+    </test>
+
+    <test verbose="1" name="Exclude a method in the same package" annotations="JDK">
+        <packages>
+            <package name="org.chenkan.testngshow" >
+                <classes>
+                    <class name="org.chenkan.testngshow.TestApple">
+                        <methods>
+                            <exclude name="doTestA"/>
+                        </methods>
+                    </class>
+                </classes>
+            </package>
+        </packages>
+    </test>
+
+</suite>
