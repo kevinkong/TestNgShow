@@ -1,0 +1,10 @@
+<suite name="BASIC">
+
+    <test verbose="1" name="Apple and Banana" annotations="JDK">
+        <classes>
+            <class name="org.chenkan.testngshow.TestApple" />
+            <class name="org.chenkan.testngshow.TestBanana" />
+        </classes>
+    </test>
+
+</suite>
