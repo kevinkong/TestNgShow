@@ -25,5 +25,5 @@ TestNG - 6.8.7
 Example Xml
 
 * src/test/resources/exclude_method_in_package.xml
-* 内含2个<test>，都运行同一个package，但其中一个<test>排除了一个`@Test`method
-* 这2个<test>可对照着看
+* 内含2个\<test\>，都运行同一个package，但其中一个<test>排除了一个`@Test`method
+* 这2个\<test\>可对照着看
