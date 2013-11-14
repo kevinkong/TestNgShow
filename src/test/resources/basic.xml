@@ -7,4 +7,10 @@
         </classes>
     </test>
 
+    <test verbose="1" name="Cookie" annotations="JDK">
+        <classes>
+            <class name="org.chenkan.testngshow.TestCookie" />
+        </classes>
+    </test>
+
 </suite>
