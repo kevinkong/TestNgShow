@@ -1,4 +1,4 @@
-Master Branch : [![Build Status](https://travis-ci.org/chenkan/testngshow.png?branch=master)](https://travis-ci.org/chenkan/testngshow)
+Master Branch : [![Build Status](https://travis-ci.org/chenkan/TestNgShow.png?branch=master)](https://travis-ci.org/chenkan/TestNgShow)
 
 #### 概述
 
