@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/chenkan/testngshow.png)](https://travis-ci.org/chenkan/testngshow)
+
 #### 概述
 
 本项目目标是以实例展示`TestNG`的各项功能
