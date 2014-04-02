@@ -6,7 +6,7 @@
 
     <groupId>com.netease.hz.qa</groupId>
     <artifactId>qarch-testng-demo</artifactId>
-    <name>TestNgDemo</name>
+    <name>TestNgDemoNew</name>
     <version>0.1</version>
 
     <dependencies>
