@@ -9,6 +9,7 @@ public class HelloWorld {
      */
     public String echo(String input) {
         System.out.println("-- ECHO -- " + input);
+        String ueslessVar;
         return input;
     }
 
