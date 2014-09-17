@@ -68,7 +68,7 @@
               <properties>
                 <property>
                   <name>listener</name>
-                  <value>org.sonar.java.jacoco.JUnitListener</value>
+                  <value>org.sonar.java.jacoco.TestNGListener</value>
                 </property>
               </properties>
             </configuration>
@@ -88,5 +88,5 @@
   </profiles>
   <!-- END: Specific to mapping unit tests and covered code -->
 
-  
+
 </project>
