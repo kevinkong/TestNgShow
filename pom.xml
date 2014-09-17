@@ -39,7 +39,7 @@
                     <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>
-            <plugin>
+<!--             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.16</version>
@@ -49,7 +49,7 @@
                         <suiteXmlFile>src/test/resources/basic.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
-            </plugin>
+            </plugin> -->
         </plugins>
     </build>
 
@@ -65,6 +65,10 @@
             <!-- Minimal supported version is 2.4 -->
             <version>2.13</version>
             <configuration>
+            <argLine>-Dfile.encoding=UTF-8</argLine>
+                <suiteXmlFiles>
+                    <suiteXmlFile>src/test/resources/basic.xml</suiteXmlFile>
+                </suiteXmlFiles>
               <properties>
                 <property>
                   <name>listener</name>
